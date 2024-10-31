@@ -98,7 +98,7 @@ section {
   line-height: 34px;
   height: 34px !important;
   border: none;
-  width: 500px;
+  width: 480px;
 }
 .search input:focus {
   outline: none;
@@ -125,16 +125,20 @@ section {
 .btn {
   display: inline-block;
   background-color: #f8f9fa;
-  color: #3c4043;
+  color: #5f6368;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 5px 5px 0 0;
+  border: 1px solid #f2f2f2;
+  font-family: Arial, sans-serif;
   text-decoration: none;
   border-radius: 5px;
   font-size: 14px;
+  height: 36px;
 }
 
 .btn:hover {
   border: 1px solid #3c4043;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* FOOTER */
